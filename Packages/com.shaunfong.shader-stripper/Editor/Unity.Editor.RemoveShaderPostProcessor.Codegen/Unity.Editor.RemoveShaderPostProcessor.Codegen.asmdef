@@ -1,0 +1,30 @@
+{
+    "name": "Unity.Editor.RemoveShaderPostProcessor.Codegen",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8baa6eabecd47164e94a1eb92b18f394",
+        "GUID:e0cd26848372d4e5c891c569017e11f1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Mono.Cecil.dll",
+        "Mono.Cecil.Mdb.dll",
+        "Mono.Cecil.Pdb.dll",
+        "Mono.Cecil.Rocks.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.nuget.mono-cecil",
+            "expression": "",
+            "define": "ENABLE_KILL_OTHER_SHADER_STRIPPER"
+        }
+    ],
+    "noEngineReferences": false
+}

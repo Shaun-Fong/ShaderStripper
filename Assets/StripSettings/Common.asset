@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bce01c7e38d77374f90e48cc0061b138, type: 3}
+  m_Name: Common
+  m_EditorClassIdentifier: 
+  _expanded: 0
+  _order: 0
+  _active: 1
+  _notes: Commom
+  _logOutput: 1
+  _blacklistedShaderNames:
+  - matchType: 1
+    namePattern: Stripped
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/VideoDecode
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/Internal
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/VR
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Legacy Shaders
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/Universal Render Pipeline/ScreenSpaceAmbientOcclusion
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/Universal Render Pipeline/CameraMotionBlur
+    caseInsensitive: 0
+  - matchType: 1
+    namePattern: DepthOfField
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/Universal/HDRDebugView
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/Universal Render Pipeline/Bloom
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/Universal Render Pipeline/SubpixelMorphologicalAntialiasing
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/Universal Render Pipeline/LensFlareDataDriven
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/Universal Render Pipeline/LutBuilderLdr
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/Universal Render Pipeline/TemporalAA
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/Universal Render Pipeline/PaniniProjection
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/Universal Render Pipeline/Debug
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/Universal Render Pipeline/Debug
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/VideoComposite
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/CubeBlur
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/CubeCopy
+    caseInsensitive: 0
+  - matchType: 2
+    namePattern: Hidden/CubeBlend
+    caseInsensitive: 0
+  _blacklistedPassTypes: 
+  _blacklistedKeywords: []

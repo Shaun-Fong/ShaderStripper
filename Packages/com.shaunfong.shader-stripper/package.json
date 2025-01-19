@@ -1,0 +1,10 @@
+{
+  "name": "com.shaunfong.shader-stripper",
+  "version": "1.0.0",
+  "displayName": "ShaderStripper",
+  "description": "Personal Shader Stripper Tool.",
+  "unity": "6000.0",
+  "author": {
+    "name": "ShaunFong"
+  }
+}

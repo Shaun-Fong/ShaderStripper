@@ -1,0 +1,19 @@
+{
+    "name": "com.shaunfong.ShaderStripper.Editor",
+    "rootNamespace": "com.shaunfong.ShaderStripper.Editor",
+    "references": [
+        "com.shaunfong.ShaderStripper.Runtime",
+        "Unity.Editor.RemoveShaderPostProcessor.Codegen"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
