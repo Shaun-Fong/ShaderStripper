@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "displayName": "ShaderStripper",
   "description": "Personal Shader Stripper Tool.",
-  "unity": "6000.0",
+  "unity": "2022.3",
   "author": {
     "name": "ShaunFong"
   }
