@@ -62,6 +62,8 @@ namespace com.shaunfong.ShaderStripper.Editor {
 		void ReplaceOverwrittenCollections(){
 			if (_collectionPaths != null){
 				for (int i=0; i<_whitelistedCollections.Count; ++i){
+					if (_collectionPaths.Count-1<i)
+						continue;
 					if (_whitelistedCollections[i] == null){
 						_whitelistedCollections[i] = AssetDatabase.LoadAssetAtPath<ShaderVariantCollection>(_collectionPaths[i]);
 					}
